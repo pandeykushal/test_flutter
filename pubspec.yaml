@@ -1,0 +1,88 @@
+name: np_com_pandeykushal
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State_management
+  provider: ^6.1.1
+  get: ^4.6.6
+  go_router: ^14.4.1
+
+  # NETWORK_CALLS
+  flutter_local_notifications: ^18.0.0
+  flutter_html: ^3.0.0-beta.2
+  dio: ^5.3.4
+
+  # LOCAL STORAGE
+  flutter_secure_storage: ^9.0.0
+
+  # FILES
+  open_filex: ^4.3.4
+
+  # FIREBASE
+  firebase_core: ^3.7.0
+  firebase_messaging: ^15.1.4
+  firebase_auth: ^5.3.2
+
+  # IMAGES
+  cached_network_image: ^3.3.0
+
+  # UI
+  flutter_screenutil: ^5.9.0
+  bot_toast: ^4.1.3
+  responsive_framework: ^1.1.1
+  cupertino_icons: ^1.0.2
+  fpdart: ^1.1.1
+  file_picker: ^8.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/image/
+    - asset/icon/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: asset/font/Inter-ExtraLight.ttf #Inter ExtraLight
+          weight: 100
+          style: normal
+        - asset: asset/font/Inter-Light.ttf #Inter Light
+          weight: 200
+          style: normal
+        - asset: asset/font/Inter-Medium.ttf #Inter Light Italic
+          weight: 200
+          style: italic
+        - asset: asset/font/Inter-Regular.ttf #Inter Regular
+          weight: 300
+          style: normal
+        - asset: asset/font/Inter-SemiBold.ttf #Inter SemiBold
+          weight: 400
+          style: normal
+        - asset: asset/font/Inter-Bold.ttf #Inter Bold
+          weight: 500
+          style: normal
+        - asset: asset/font/Inter-ExtraBold.ttf #Inter ExtraBold
+          weight: 600
+          style: normal
+        - asset: asset/font/Inter-Black.ttf #Inter Black
+          weight: 700
+          style: normal
+#Basic template  for the Flutter app Created By :kushalpandey.com.np
+#Flutter Team :Kushal Pandey ;
